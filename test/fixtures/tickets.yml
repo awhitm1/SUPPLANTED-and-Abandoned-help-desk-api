@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  description: MyText
+  is_open: false
+  user: one
+  tech_id: one
+  status: one
+  category: one
+  location: one
+  group: one
+
+two:
+  title: MyString
+  description: MyText
+  is_open: false
+  user: two
+  tech_id: two
+  status: two
+  category: two
+  location: two
+  group: two
