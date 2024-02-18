@@ -5,7 +5,6 @@ class CreateTickets < ActiveRecord::Migration[7.1]
       t.text :description
       t.boolean :is_open
       t.references :user, null: false, foreign_key: true
-      t.references :tech_id, null: false, foreign_key: true
       t.references :status, null: false, foreign_key: true
       t.references :category, null: false, foreign_key: true
       t.references :location, null: false, foreign_key: true
